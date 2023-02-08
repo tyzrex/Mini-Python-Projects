@@ -1,0 +1,125 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+            "correct_answer": "Economics",
+            "incorrect_answers": [
+                "Philosophy",
+                "Politics",
+                "Physics"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "A doctor with a PhD is a doctor of what?",
+            "correct_answer": "Philosophy",
+            "incorrect_answers": [
+                "Psychology",
+                "Phrenology",
+                "Physical Therapy"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these companies does NOT manufacture automobiles?",
+            "correct_answer": "Ducati",
+            "incorrect_answers": [
+                "Nissan",
+                "GMC",
+                "Fiat"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What did the Spanish autonomous community of Catalonia ban in 2010, that took effect in 2012?",
+            "correct_answer": "Bullfighting",
+            "incorrect_answers": [
+                "Fiestas",
+                "Flamenco",
+                "Mariachi"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the romanized Japanese word for &quot;university&quot;?",
+            "correct_answer": "Daigaku",
+            "incorrect_answers": [
+                "Toshokan",
+                "Jimusho",
+                "Shokudou"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+            "correct_answer": "India",
+            "incorrect_answers": [
+                "United States of America",
+                "Soviet Union",
+                "Poland"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What character was once considered to be the 27th letter of the alphabet?",
+            "correct_answer": "Ampersand",
+            "incorrect_answers": [
+                "Interrobang",
+                "Tilde",
+                "Pilcrow"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In ancient Greece, if your job were a &quot;hippeus&quot; which of these would you own?",
+            "correct_answer": "Horse",
+            "incorrect_answers": [
+                "Weave",
+                "Guitar",
+                "Boat"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the highest number of Michelin stars a restaurant can receive?",
+            "correct_answer": "Three",
+            "incorrect_answers": [
+                "Four",
+                "Five",
+                "Six"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Fields Medal, one of the most sought after awards in mathematics, is awarded every how many years?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "3",
+                "5",
+                "6"
+            ]
+        }
+    ]
+}

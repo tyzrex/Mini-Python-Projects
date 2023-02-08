@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    
+    </script>    
+</head>
+<body class="bg-black text-white">
+    <nav class="lg:flex-row flex w-full gap-3 flex-col justify-center md:justify-between items-center h-auto p-6 border-b border-b-orange-500">
+        <div>
+            <h1 class=" text-2xl md:text-3xl font-bold">QR Code <span class="text-orange-500">Generator</span></h1>
+        </div>
+        <div class="flex md:justify-center items-center gap-5">
+            <a href="/" class="font-bold hover:text-orange-500 transition-all ease-in-out duration-300 ">Home</a>
+            <a href="/" class="font-bold hover:text-orange-500 transition-all ease-in-out duration-300 ">About</a>
+            <a href="/" class="font-bold hover:text-orange-500 transition-all ease-in-out duration-300 ">Generate</a>
+        </div>
+    </nav>
+
+    <div class=" flex flex-col gap-9">
+        <div class="flex justify-center items-center h-auto">
+            <div class="mt-10 p-8 flex-col gap-3 text-center items-center">
+                <h1 class="text-3xl md:text-5xl font-bold">Generate QR Codes Now!</h1>
+                <h1 class="text-xl md:text-4xl">Easy to generate and free</h1>
+                <h1 class="text-xl md:text-3xl">With just few clicks</h1>
+            </div>
+        </div>
+ 
+        <div class="flex justify-center items-center pb-5">
+            <form action="/" method="POST" class="flex flex-col gap-3">
+              <div class="flex flex-col items-center justify-center gap-3">
+                <h1 class="text-2xl font-bold">Enter your Link</h1>
+                <input type="text" name="data" placeholder="Enter your data" class="link-field p-2 rounded-lg text-white bg-black border w-[250px] md:w-[400px] border-orange-500">
+                <button type="submit" class="p-2 rounded-lg bg-orange-500 text-black font-bold">Generate</button>
+              </div>
+            </form>
+            </div>
+    
+            {% if error %}
+            <div class="flex justify-center items-center h-auto">
+                <div class="mt-10 p-8 flex-col gap-3 text-center items-center">
+                    <h1 class="text-5xl font-bold text-red-600">Error</h1>
+                    <h1 class="text-4xl">Please enter some <span class="text-orange-500">data</span></h1>
+                </div>
+            </div>
+            {% endif %}
+    </div>
+    
+    {% if data %}    
+    <div class="flex justify-center items-center">
+        <div class="p-5 flex-col gap-3 text-center justify-center items-center">
+            <h1 class="text-5xl font-bold">Your QR Code</h1>
+            <h1 class="text-4xl">Here is your QR Code</h1>
+            <h1 class="text-3xl">Scan it with your phone</h1>
+            <div class="flex items-center justify-center">
+                <img src={{data}} alt="QR Code" class="mt-10">
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- footer with copyrigtht -->
+    <footer class="lg:fixed bottom-0 w-screen h-auto">
+        <div class="flex justify-center items-center border-t border-t-orange-500">
+            <div class="p-5 flex-col gap-3 text-center items-center">
+                <h1 class="text-2xl md:text-3xl font-bold">QR Code Generator</h1>
+                <h1 class="text-xl md:text-2xl">Made with ❤️ by Sulav</h1>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
